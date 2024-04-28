@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_awsdevops2022_vprofile_project_1714328015391-pr-trigger-input-set
+  identifier: Build_awsdevops2022_vprofile_project_1714328015391prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: maven_build
+  pipeline:
+    identifier: Build_awsdevops2022_vprofile_project_1714328015391
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
